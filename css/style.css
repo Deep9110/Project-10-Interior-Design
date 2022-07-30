@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('/images/interior-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+nav{
+    display:flex;
+    margin: 3rem 2rem;
+    justify-content:space-between;
+}
+.logos img{
+    padding: 1rem 2rem;
+    
+}
+.list{
+    display:flex;
+    list-style: none;
+    color: #fff;
+    margin: 1rem;
+    padding-top: 1rem;
+    gap: 5rem;
+    justify-content: space-between;
+    justify-content: flex-end;
+    font-size: 22px;
+    
+}
+.list::after {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    content: "";
+    height: 2px;
+    border-bottom: 3px solid #fff;
+    width: 65%;
+  }
+
+.phone-svg svg {
+    position: absolute;
+    width: 160%;
+    left: -3.5rem;
+    top: 35px;
+  }
+.phone-svg svg path {
+    fill: #fff;
+}
+/* .call{
+    display:flex;
+    gap: 1rem;
+} */
+
+.content{
+    margin: 10rem 6rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    color: #fff;
+}
+.content button {
+    padding: 1.5rem 3rem;
+    font-size: 25px;
+    border-radius: 40px;
+    border:2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 5rem;
+}
+.puzzle{
+    width:240px;
+    height: 130px;
+    margin: 2rem;
+    padding: 2em;
+    background: #2f4c60;
+    left: 45rem;
+    top: 38rem;
+    position: absolute;
+}
+
+.puzzle img{
+    width:100px;
+    height: 40px;
+    border-radius: 30px;
+    background: #fff;
+}
+.puzzle p{
+    font-size: 20px;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.light{
+    width:240px;
+    height: 130px;
+    margin: 2rem;
+    padding: 2rem;
+    background: #2f4c60;
+    left: 60rem;
+    top: 15rem;
+    position: absolute;
+}
+
+.light img{
+    /* miroring image */
+    transform: scaleX(-1);
+    width:100px;
+    height: 40px;
+    border-radius: 30px;
+    background: #fff;
+}
+.light p{
+    font-size: 20px;
+    padding-top: 1rem;
+    color: #fff;
+}
+.line img{
+    background: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 66rem;
+    top: 43rem;
+}
+.line2 img{
+    /* rotating image */
+    transform: rotate(90deg);
+    background: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 68.5rem;
+    top: 29rem;
+}
